@@ -81,3 +81,46 @@
     scale: 0.8;
     padding: 5px;
   }
+  .sub{
+    color:rgb(242,244,245) ;
+    font-size: large;
+    line-height: 20px;
+  }
+  .explore{
+    display: block;
+    position: absolute;
+    bottom: 60px;
+    right: 250px;
+    left: 250px;
+    /* background-color: aliceblue; */
+    height: 50px;
+    width: auto;
+    align-items: center;
+  }
+  .button{
+    border: 1px solid rgb(194, 190, 190);
+    border-radius: 40%;
+    width: 50%;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+
+  }
+  .button2{
+    border: 1px solid rgb(194, 190, 190);
+    border-radius: 40%;
+    width: 50%;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+  }
+  .button:hover{
+    background-color:rgb(249,115,105) ;
+    color: white;
+    border:1px solid rgb(249,115,105);
+  }
+  .button2:hover{
+    background-color:rgb(249,115,105) ;
+    color: white;
+    border:1px solid rgb(249,115,105);
+  }
