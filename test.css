@@ -33,12 +33,6 @@
     right: 16px;
   }
   
-  /* Bottom right text */
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
   
   /* Centered text */
   .centered {
@@ -130,4 +124,16 @@
     background-color:rgb(249,115,105) ;
     color: white;
     border:1px solid rgb(249,115,105);
+  }
+  .foot{
+    position: absolute;
+
+    width :100%;
+    background-color: aqua  ;
+    height: 40px;
+    top: 80vh;
+    color: yellowgreen;
+  }
+  .footer{
+    position: absolute;
   }
