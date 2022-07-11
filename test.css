@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+  .bg{
+    opacity: 0.86;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .logo{
+    height: 50px;
+  }
+  .navbar{
+    height: 60px;
+    background-color: aliceblue;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    left:250px ;
+    right:250px;
+  }
